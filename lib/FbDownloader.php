@@ -34,7 +34,7 @@ class FbDownloader implements DownloaderInterface {
 	
 	public function download()
 	{     
-	$this->file_content = file_get_contents($this->url);
+	$this->file_content = @file_get_contents($this->url);
 	
 	    if ($this->file_content !== null) {
 				
