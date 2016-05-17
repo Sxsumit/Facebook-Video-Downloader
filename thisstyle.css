@@ -1,0 +1,73 @@
+*
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+#top
+{
+	float: left;
+	clear: both;
+}
+
+
+ul {
+	clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+   
+}
+
+li {
+  display: inline;
+}
+
+li a {
+
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #2B65EC;
+}
+
+.active {
+    background-color: #2B65EC;
+}
+#section {
+    width:70%;
+    text-align: center;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #2B65EC;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#footer {
+	margin-top: 10px;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
